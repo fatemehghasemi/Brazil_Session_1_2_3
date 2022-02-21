@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3cf1efd38d9e418b98633553f8cf0777" Name="Diagram1">
+        <EntityTypeShape EntityType="brezil2015Model.Charity" Width="1.5" PointX="6" PointY="17.25" />
+        <EntityTypeShape EntityType="brezil2015Model.Country" Width="1.5" PointX="0.75" PointY="6.75" />
+        <EntityTypeShape EntityType="brezil2015Model.Event" Width="1.5" PointX="5.25" PointY="13" />
+        <EntityTypeShape EntityType="brezil2015Model.EventType" Width="1.5" PointX="3" PointY="10.625" />
+        <EntityTypeShape EntityType="brezil2015Model.Gender" Width="1.5" PointX="0.75" PointY="10.625" />
+        <EntityTypeShape EntityType="brezil2015Model.Marathon" Width="1.5" PointX="3" PointY="13.25" />
+        <EntityTypeShape EntityType="brezil2015Model.Position" Width="1.5" PointX="8.75" PointY="2.375" />
+        <EntityTypeShape EntityType="brezil2015Model.RaceKitOption" Width="1.5" PointX="6" PointY="0.75" />
+        <EntityTypeShape EntityType="brezil2015Model.Registration" Width="1.5" PointX="8.25" PointY="6" />
+        <EntityTypeShape EntityType="brezil2015Model.RegistrationEvent" Width="1.5" PointX="10.5" PointY="9.75" />
+        <EntityTypeShape EntityType="brezil2015Model.RegistrationStatu" Width="1.5" PointX="6" PointY="3.375" />
+        <EntityTypeShape EntityType="brezil2015Model.Role" Width="1.5" PointX="1.5" PointY="0.875" />
+        <EntityTypeShape EntityType="brezil2015Model.Runner" Width="1.5" PointX="3" PointY="6.5" />
+        <EntityTypeShape EntityType="brezil2015Model.Sponsorship" Width="1.5" PointX="10.5" PointY="6.875" />
+        <EntityTypeShape EntityType="brezil2015Model.Staff" Width="1.5" PointX="11" PointY="2.125" />
+        <EntityTypeShape EntityType="brezil2015Model.Timesheet" Width="1.5" PointX="13.25" PointY="2.125" />
+        <EntityTypeShape EntityType="brezil2015Model.User" Width="1.5" PointX="0.75" PointY="3.5" />
+        <EntityTypeShape EntityType="brezil2015Model.Volunteer" Width="1.5" PointX="6" PointY="6.625" />
+        <AssociationConnector Association="brezil2015Model.FK__Registrat__Chari__48CFD27E" />
+        <AssociationConnector Association="brezil2015Model.FK__Marathon__Countr__4D94879B" />
+        <AssociationConnector Association="brezil2015Model.FK__Runner__CountryC__4222D4EF" />
+        <AssociationConnector Association="brezil2015Model.FK__Volunteer__Count__440B1D61" />
+        <AssociationConnector Association="brezil2015Model.FK__Event__EventType__49C3F6B7" />
+        <AssociationConnector Association="brezil2015Model.FK__Event__MarathonI__4AB81AF0" />
+        <AssociationConnector Association="brezil2015Model.FK__Registrat__Event__4CA06362" />
+        <AssociationConnector Association="brezil2015Model.FK__Runner__Gender__412EB0B6" />
+        <AssociationConnector Association="brezil2015Model.FK__Volunteer__Gende__4316F928" />
+        <AssociationConnector Association="brezil2015Model.FK_Staff_Positions" />
+        <AssociationConnector Association="brezil2015Model.FK__Registrat__RaceK__46E78A0C" />
+        <AssociationConnector Association="brezil2015Model.FK__Registrat__Regis__47DBAE45" />
+        <AssociationConnector Association="brezil2015Model.FK__Registrat__Regis__4BAC3F29" />
+        <AssociationConnector Association="brezil2015Model.FK__Registrat__Runne__45F365D3" />
+        <AssociationConnector Association="brezil2015Model.FK__Sponsorsh__Regis__44FF419A" />
+        <AssociationConnector Association="brezil2015Model.FK__User__RoleId__3F466844" />
+        <AssociationConnector Association="brezil2015Model.FK__Runner__Email__403A8C7D" />
+        <AssociationConnector Association="brezil2015Model.FK_Timesheet_Staff" />
+        <AssociationConnector Association="brezil2015Model.FK_Timesheet_Timesheet" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
